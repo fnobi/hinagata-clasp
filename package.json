@@ -1,0 +1,17 @@
+{
+  "name": "hinagata-clasp",
+  "version": "1.0.0",
+  "main": "src/hinagata-clasp.ts",
+  "private": true,
+  "scripts": {
+    "pull": "clasp pull",
+    "push": "clasp push"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^0.0.37"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.0.1",
+    "tslint": "^5.12.1"
+  }
+}
